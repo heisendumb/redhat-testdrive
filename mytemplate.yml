@@ -26,9 +26,9 @@ objects:
           app: ${APPLICATION_NAME}
           deploymentconfig: ${APPLICATION_NAME}
 	spec:
-        containers:
-        - image: jboss/wildfly:latest
-          name: ${APPLICATION_NAME}
+          containers:
+          - image: jboss/wildfly:latest
+            name: ${APPLICATION_NAME}
           ports:
           - containerPort: 8080
             protocol: TCP
